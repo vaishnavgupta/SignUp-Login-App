@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "155041299512",
+    "project_id": "database-trial-app",
+    "storage_bucket": "database-trial-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155041299512:android:d4745fa98a85f4c0b2facd",
+        "android_client_info": {
+          "package_name": "com.example.databaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC--q_2QcXY5BRUSyWzqrzgAyBYgEfbG3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

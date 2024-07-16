@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/loginnew"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        app:startIconDrawable="@drawable/baseline_person_2_24"
+        android:background="@color/white"
+        app:boxStrokeColor="@color/grey"
+        app:hintTextColor="@color/black"
+
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etName"
+            android:hint="Enter Your Name"
+            android:textStyle="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        app:boxStrokeColor="@color/grey"
+        app:startIconDrawable="@drawable/baseline_alternate_email_24"
+        app:hintTextColor="@color/black"
+
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Mail Address"
+            android:id="@+id/etMail"
+            android:textStyle="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        app:endIconMode="password_toggle"
+        app:boxStrokeColor="@color/grey"
+        app:hintTextColor="@color/black"
+
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPass"
+            android:hint="Enter Your Password"
+            android:textStyle="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        app:boxStrokeColor="@color/grey"
+        app:hintTextColor="@color/black"
+        app:startIconDrawable="@drawable/baseline_grid_3x3_24"
+
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etID"
+            android:hint="Enter Unique ID"
+            android:textStyle="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="300dp"
+        android:backgroundTint="@color/grey"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP" />
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Already Registered? Login" />
+
+
+</LinearLayout>
